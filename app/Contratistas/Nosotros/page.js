@@ -23,7 +23,7 @@ const Nosotros = () => {
                     Nosotros
                   </h1>
                   <p className="mt-4 text-lg text-blue-200">
-                    {t("Description")}
+                    {/* {t("Description")} */}
                   </p>
                 </div>
               </div>
@@ -58,9 +58,9 @@ const Nosotros = () => {
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-[#203c93]">
                       <i className="fas fa-award" />
                     </div>
-                    <h6 className="text-xl font-semibold">{t("Mision")}</h6>
+                    <h6 className="text-xl font-semibold">Misión</h6>
                     <p className="mt-2 mb-4 text-gray-500 text-justify">
-                      {t("MisionDescription")}
+                      {/* {t("MisionDescription")} */}
                     </p>
                   </div>
                 </div>
@@ -71,9 +71,9 @@ const Nosotros = () => {
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-[#59bde2]">
                       <i className="fas fa-retweet" />
                     </div>
-                    <h6 className="text-xl font-semibold">{t("Vision")}</h6>
+                    <h6 className="text-xl font-semibold">Visión</h6>
                     <p className="mt-2 mb-4 text-gray-500 text-justify">
-                      {t("VisionDescription")}
+                      {/* {t("VisionDescription")} */}
                     </p>
                   </div>
                 </div>
@@ -84,14 +84,9 @@ const Nosotros = () => {
                     <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-[#203c93]">
                       <i className="fas fa-fingerprint" />
                     </div>
-                    <h6 className="text-xl font-semibold"> {t("Valores")}</h6>
+                    <h6 className="text-xl font-semibold"> Valores</h6>
                     <ul className="list-disc list-inside mt-2 text-left max-w-[140px] mx-auto text-gray-500 ">
-                      <li>{t("V1")}</li>
-                      <li>{t("V2")}</li>
-                      <li>{t("V3")}</li>
-                      <li>{t("V4")}</li>
-                      <li>{t("V5")}</li>
-                      <li>{t("V6")}</li>
+                      <li>Valor1</li>
                     </ul>
                   </div>
                 </div>
