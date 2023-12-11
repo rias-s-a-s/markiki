@@ -26,7 +26,7 @@ const Menu = () => {
           <FaHome className="w-10 h-10" />{" "}
         </Link>
         <a
-          href="https://l.facebook.com/l.php?u=https%3A%2F%2Fapi.whatsapp.com%2Fsend%3Fphone%3D51979757404%26text%3DHola%2520gracias%2520por%2520escribir%2520a%2520MARKIKISOUNDBEATS%2520en%2520.En%2520breves%2520momentos%2520nos%2520pondremos%2520en%2520contacto%2520contigo%26fbclid%3DIwAR3A4AdPthEihfQSquuMvQdTCTDwI3r4vR7B-zeciFOKYjGJu8tdCwayAyE&h=AT2Add7RQWVVFLg0lEBMU70M_g4s5-seb2Bn5plKFJkVF1tIrafI-tDySOdEN289zSPeITXuFeaHHNKIVpoVaZ6QX7wvHJZ71CKqleCfkkpCHDCBjORh4sqQ6UVtMg"
+          href="https://l.facebook.com/l.php?u=https%3A%2F%2Fapi.whatsapp.com%2Fsend%3Fphone%3D51979757404%26text%3DHola%2520gracias%2520por%2520escribir%2520a%2520MARKIKIContratistas%2520en%2520.En%2520breves%2520momentos%2520nos%2520pondremos%2520en%2520contacto%2520contigo%26fbclid%3DIwAR3A4AdPthEihfQSquuMvQdTCTDwI3r4vR7B-zeciFOKYjGJu8tdCwayAyE&h=AT2Add7RQWVVFLg0lEBMU70M_g4s5-seb2Bn5plKFJkVF1tIrafI-tDySOdEN289zSPeITXuFeaHHNKIVpoVaZ6QX7wvHJZ71CKqleCfkkpCHDCBjORh4sqQ6UVtMg"
           target="_blank"
           title="Contacto via whatsapp"
           rel="noopener noreferrer"
@@ -45,7 +45,7 @@ const Menu = () => {
             <div className="cursor-pointer">
               <Image
                 title="Ir a inicio"
-                src="/Soundbeats/IconoBlanco.svg"
+                src="/Contratistas/IconoBlanco.svg"
                 width={150}
                 height={50}
                 alt="Logotype"
@@ -79,31 +79,31 @@ const Menu = () => {
           >
             {/*  */}
             <ItemMenu
-              ruta="/Soundbeats"
+              ruta="/Contratistas"
               setIsOpen={setIsOpen}
-              border={pathname == "/Soundbeats" ? true : false}
+              border={pathname == "/Contratistas" ? true : false}
             >
               Inicio
             </ItemMenu>
             <ItemMenu
-              ruta="/Soundbeats/Nosotros"
+              ruta="/Contratistas/Nosotros"
               setIsOpen={setIsOpen}
-              border={pathname == "/Soundbeats/Nosotros" ? true : false}
+              border={pathname == "/Contratistas/Nosotros" ? true : false}
             >
               Nosotros
             </ItemMenu>
 
             <ItemMenu
-              ruta="/Soundbeats/Servicios"
+              ruta="/Contratistas/Servicios"
               setIsOpen={setIsOpen}
-              border={pathname == "/Soundbeats/Servicios" ? true : false}
+              border={pathname == "/Contratistas/Servicios" ? true : false}
             >
               Servicios
             </ItemMenu>
             <ItemMenu
-              ruta="Soundbeats/Contacto"
+              ruta="Contratistas/Contacto"
               setIsOpen={setIsOpen}
-              border={pathname == "/Soundbeats/Contacto" ? true : false}
+              border={pathname == "/Contratistas/Contacto" ? true : false}
             >
               Contacto
             </ItemMenu>

@@ -105,7 +105,7 @@ const HomePage = () => {
                 <div>
                   <span>Soluciones Electrónica</span>
                   <span className="text-xs text-blue-300 block">
-                    Typescript
+                    Confianza y seguridad
                   </span>
                 </div>
               </Link>
