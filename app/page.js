@@ -1,3 +1,5 @@
+import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const HomePage = () => {
@@ -48,46 +50,65 @@ const HomePage = () => {
           <div className="text-white  ">
             <h3 className="text-uppercase font-semibold">Empresas</h3>
             <div className="grid sm:grid-cols-2 md:grid-cols-3  gap-1 sm:gap-5 uppercase">
-              <div className="group flex items-center bg-indigo-900 bg-opacity-40 shadow-xl gap-5 px-6 py-5 rounded-lg ring-2 ring-offset-2 ring-offset-blue-800 ring-cyan-700 mt-5 cursor-pointer hover:bg-blue-900 hover:bg-opacity-100 transition">
-                <img
-                  className="w-16"
+              <Link
+                href={"/Soundbeats"}
+                className="group flex items-center bg-indigo-900 bg-opacity-40 shadow-xl gap-5 px-6 py-5 rounded-lg ring-2 ring-offset-2 ring-offset-blue-800 ring-cyan-700 mt-5 cursor-pointer hover:bg-blue-900 hover:bg-opacity-100 transition"
+              >
+                <Image
+                  width={64}
+                  height={30}
                   src="/SoundbeatsSinLetra.png"
+                  style={{
+                    objectFit: "cover",
+                  }}
                   alt="SoundBeat"
                 />
                 <div>
                   <span>Soundbeats</span>
-                  <span className="text-xs text-blue-300 block">
-                    Typescript
-                  </span>
+                  <span className="text-xs text-blue-300 block">Eventos</span>
                 </div>
-                <div>
-                  <i className="fa fa-chevron-right opacity-0 group-hover:opacity-100 transform -translate-x-1 group-hover:translate-x-0 block transition" />
-                </div>
-              </div>
-              <div className="group flex items-center bg-indigo-900 bg-opacity-40 shadow-xl gap-5 px-6 py-5 rounded-lg ring-2 ring-offset-2 ring-offset-blue-800 ring-cyan-700 mt-5 cursor-pointer hover:bg-blue-900 hover:bg-opacity-100 transition">
-                <img className="w-16" src="/MMSinLetra.png" alt="SoundBeat" />
+              </Link>
+              <Link
+                href={"/Contratistas"}
+                className="group flex items-center bg-indigo-900 bg-opacity-40 shadow-xl gap-5 px-6 py-5 rounded-lg ring-2 ring-offset-2 ring-offset-blue-800 ring-cyan-700 mt-5 cursor-pointer hover:bg-blue-900 hover:bg-opacity-100 transition"
+              >
+                <Image
+                  width={64}
+                  height={30}
+                  src="/MMSinLetra.png"
+                  alt="MM"
+                  style={{
+                    objectFit: "cover",
+                  }}
+                />
                 <div>
                   <span>Constratistas Generales</span>
                   <span className="text-xs text-blue-300 block">
                     Typescript
                   </span>
                 </div>
-                <div>
-                  <i className="fa fa-chevron-right opacity-0 group-hover:opacity-100 transform -translate-x-1 group-hover:translate-x-0 block transition" />
-                </div>
-              </div>
-              <div className="group flex items-center bg-indigo-900 bg-opacity-40 shadow-xl gap-5 px-6 py-5 rounded-lg ring-2 ring-offset-2 ring-offset-blue-800 ring-cyan-700 mt-5 cursor-pointer hover:bg-blue-900 hover:bg-opacity-100 transition">
-                <img className="w-16" src="/SESinLetra.png" alt="SoundBeat" />
+              </Link>
+              <Link
+                href={"/Electronica"}
+                className="group flex items-center bg-indigo-900 bg-opacity-40 shadow-xl gap-5 px-6 py-5 rounded-lg ring-2 ring-offset-2 ring-offset-blue-800 ring-cyan-700 mt-5 cursor-pointer hover:bg-blue-900 hover:bg-opacity-100 transition"
+              >
+                <Image
+                  width={64}
+                  height={30}
+                  src="/SESinLetra.png"
+                  alt="SE"
+                  style={{
+                    objectFit: "cover",
+                  }}
+                />
+
                 <div>
                   <span>Soluciones Electrónica</span>
                   <span className="text-xs text-blue-300 block">
                     Typescript
                   </span>
                 </div>
-                <div>
-                  <i className="fa fa-chevron-right opacity-0 group-hover:opacity-100 transform -translate-x-1 group-hover:translate-x-0 block transition" />
-                </div>
-              </div>
+              </Link>
             </div>
           </div>
         </div>
