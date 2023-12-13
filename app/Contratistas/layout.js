@@ -7,7 +7,7 @@ export const metadata = {
 };
 const Contratistalayout = ({ children }) => {
   return (
-    <section>
+    <section className="bg-gra}">
       <Menu />
       {children}
       <Footer />

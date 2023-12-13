@@ -6,7 +6,7 @@ const Nosotros = () => {
           className="absolute top-0 w-full h-full bg-center bg-cover"
           style={{
             backgroundImage:
-              'url("https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80")',
+              'url("https://img.freepik.com/foto-gratis/sirva-tecnico-electrico-que-trabaja-centralita-fusibles_169016-24062.jpg?w=740&t=st=1702495550~exp=1702496150~hmac=60f5570cca176b15413e0856f86bd53ffc87eee5c50f04a5cc21f8a9f911f5d3")',
           }}
         >
           <span
@@ -56,14 +56,14 @@ const Nosotros = () => {
       <section className="pb-10  -mt-24">
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap">
-            <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
-              <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+            <div className="lg:pt-12 pt-6 w-full  md:w-4/12 px-4 text-center">
+              <div className="relative md:min-h-[270px] flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                 <div className="px-4 py-5 flex-auto">
-                  <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-[#203c93]">
+                  <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-[#377fa8]">
                     <i className="fas fa-award" />
                   </div>
                   <h6 className="text-xl font-semibold">Misión</h6>
-                  <p className="mt-2 mb-4 text-gray-500 text-justify">
+                  <p className="mt-2 mb-4 text-gray-600 text-justify">
                     Ofrecer nuestros servicios con calidad, profesionalismo y
                     competitividad, garantizando que estos sean del agrado y
                     satisfacción de nuestros clientes{" "}
@@ -74,11 +74,11 @@ const Nosotros = () => {
             <div className="w-full md:w-4/12 px-4 text-center">
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                 <div className="px-4 py-5 flex-auto">
-                  <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-[#59bde2]">
+                  <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-gradient-to-r from-[#377fa8] to-[#499068]">
                     <i className="fas fa-retweet" />
                   </div>
                   <h6 className="text-xl font-semibold">Visión</h6>
-                  <p className="mt-2 mb-4 text-gray-500 text-justify">
+                  <p className="mt-2 mb-4 text-gray-600 text-justify">
                     Posicionarnos en el año 2025 como una de las empresas
                     líderes a nivel nacional dentro de los rubros que ofrecemos.{" "}
                   </p>
@@ -88,12 +88,18 @@ const Nosotros = () => {
             <div className="pt-6 w-full md:w-4/12 px-4 text-center">
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                 <div className="px-4 py-5 flex-auto">
-                  <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-[#203c93]">
+                  <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-[#499068]">
                     <i className="fas fa-fingerprint" />
                   </div>
                   <h6 className="text-xl font-semibold"> Nuestros Valores</h6>
-                  <ul className="list-disc list-inside mt-2 text-left max-w-[140px] mx-auto text-gray-500 ">
-                    <li> Valor 1</li>
+                  <ul className="list-disc list-inside mt-2 text-left px-2 mx-auto text-gray-600 ">
+                    <li> Compromiso </li>
+                    <li>Ética</li>
+                    <li>Espíritu de equipo</li>
+                    <li>Respeto</li>
+                    <li>Seguridad y salud</li>
+                    <li>Responsabilidad social y medio ambiente</li>
+                    <li>Innovación</li>
                   </ul>
                 </div>
               </div>

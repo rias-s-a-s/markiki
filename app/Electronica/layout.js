@@ -7,7 +7,7 @@ export const metadata = {
 };
 const ElectronicaLayout = ({ children }) => {
   return (
-    <section>
+    <section className="bg-gradient-to-r from-[#377fa8] to-[#499068]">
       <Menu />
       {children}
       <Footer />

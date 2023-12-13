@@ -45,8 +45,8 @@ const Menu = () => {
             <div className="cursor-pointer">
               <Image
                 title="Ir a inicio"
-                src="/Electronica/IconoBlanco.svg"
-                width={150}
+                src="/ElectricasBlanco.svg"
+                width={170}
                 height={50}
                 alt="Logotype"
                 className="object-contain"

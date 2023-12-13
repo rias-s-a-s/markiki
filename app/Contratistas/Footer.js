@@ -14,8 +14,8 @@ const Footer = () => {
               <Link href={"/"} title="Ir a Inicio">
                 <Image
                   title="LogoEmpresa"
-                  src="/Soundbeats/IconoBlanco.svg"
-                  width={200}
+                  src="/m_m_blanco.svg"
+                  width={220}
                   height={100}
                   alt="Logo Asei"
                   style={{
