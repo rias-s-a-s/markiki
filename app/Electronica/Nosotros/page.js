@@ -16,8 +16,8 @@ const Nosotros = () => {
         </div>
         <div className="container relative mx-auto">
           <div className="items-center flex flex-wrap">
-            <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-              <div className="rounded-xl bg-gradient-to-r from-[#377fa8] to-[#499068] px-1 py-8 shadow-lg backdrop-blur-md    mx-auto">
+            <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto ">
+              <div className="rounded-xl bg-transparent px-1 py-8 shadow-lg backdrop-blur-sm    mx-auto">
                 <h1 className="text-white font-semibold text-5xl">
                   Quiénes Somos
                 </h1>
