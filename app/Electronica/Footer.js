@@ -49,10 +49,10 @@ const Footer = () => {
 
                 <div>
                   <a
-                    href="tel:+5144460044"
-                    className="text-xl  hover:text-[#f9d725] transition-colors duration-300"
+                    href="tel:+51979757404"
+                    className="text-xl  hover:text-black transition-colors duration-300"
                   >
-                    (+51) 44-460-044{" "}
+                    (+51) 979-757-404
                   </a>
                 </div>
               </div>
@@ -69,10 +69,10 @@ const Footer = () => {
                 </svg>
 
                 <a
-                  className=" text-xl hover:text-[#f9d725] transition-colors duration-300"
-                  href="mailto:contacto@negociacionestmh.com.pe"
+                  className=" text-xl hover:text-black transition-colors duration-300"
+                  href="mailto:ventas@solucioneselectricasperu.com"
                 >
-                  contacto@negociacionestmh.com.pe{" "}
+                  ventas@solucioneselectricasperu.com{" "}
                 </a>
               </div>
 
@@ -89,9 +89,9 @@ const Footer = () => {
                     clipRule="evenodd"
                   />
                 </svg>
-                <p className="  hover:text-[#f9d725] transition-colors duration-300">
-                  Flor de la Canela Mz D - Lt. 02 Dpto. 201 <br />
-                  Urb. Palmeras del Golf , Distrito de Víctor Larco
+                <p className="  hover:text-black transition-colors duration-300">
+                  Calle Tegucigalpa N° 118 <br />
+                  Santa Patricia - La Molina
                 </p>
               </div>
             </div>
@@ -104,24 +104,16 @@ const Footer = () => {
                 href="https://www.facebook.com/corp.lugarsa"
                 target="_blank"
                 rel="noopener noreferrer"
-                className=" hover:animate-bounce text-white hover:text-[#eec924]"
+                className=" hover:animate-bounce text-white "
               >
                 <BsFacebook className="  w-8 h-8" />
               </a>
-              <a
-                href="https://www.instagram.com/lugarsa.constructora/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className=" hover:animate-bounce text-white hover:text-[#eec924]"
-              >
-                <BsInstagram className="  w-8 h-8" />
-              </a>
 
               <a
-                href="https://bit.ly/lotes-en-pimentel"
+                href="https://api.whatsapp.com/send?phone=51979757404&text=Hola%20buenas%2C%20me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20"
                 target="_blank"
                 rel="noopener noreferrer"
-                className=" hover:animate-bounce text-white hover:text-[#eec924]"
+                className=" hover:animate-bounce text-white "
               >
                 <BsWhatsapp className=" w-8 h-8 " />
               </a>

@@ -145,12 +145,13 @@ const ContactoElectronica = () => {
                   <div className="flex flex-col">
                     <h2 className="text-2xl">Dirección</h2>
                     <a
-                      className="text-gray-100 hover:text-[#ffd33a]"
-                      href="https://goo.gl/maps/1hUtX4Fm6hJn3fBz8"
+                      title="Ver en google maps"
+                      className="text-gray-100 hover:text-black"
+                      href="https://maps.app.goo.gl/X3d7J5zMKi3NZQFJ7"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Mz A Lote 15A Dpto 1001 Urb. Las Hortencias de California
+                      Calle Tegucigalpa N° 118 Santa Patricia - La Molina{" "}
                     </a>
                   </div>
                 </div>
@@ -159,18 +160,11 @@ const ContactoElectronica = () => {
               <div className="flex flex-col y-4 w-full">
                 <h2 className="text-2xl">LLamanos</h2>
                 <a
-                  href="tel:+51044661845"
-                  className="text-gray-100 hover:text-[#ffd43b]"
+                  href="tel:+51979757404"
+                  className="text-gray-100 hover:text-black"
                   target="_blank"
                 >
-                  Tel: (+51) 044 661 845
-                </a>
-                <a
-                  href="tel:+51956223460"
-                  className="text-gray-100 hover:text-[#ffd43b]"
-                  target="_blank"
-                >
-                  Tel: (+51) 956 223 460
+                  Tel: (+51) 979 757 404
                 </a>
               </div>
             </div>

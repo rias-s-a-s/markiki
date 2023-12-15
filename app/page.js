@@ -34,7 +34,7 @@ const HomePage = () => {
             <div className="absolute right-0 top-[35%] h-auto w-80 -translate-x-1/2 -translate-y-1/2 rotate-6 space-y-6 rounded-2xl bg-gray-100 p-6 transition duration-300 hover:rotate-0">
               <div>
                 <p className="text-center text-5xl font-extrabold text-gray-900">
-                  Solución en
+                  Soluciones en
                 </p>
                 <p className="text-center text-4xl font-extrabold text-[#FE5401]">
                   tus manos

@@ -26,7 +26,7 @@ const Menu = () => {
           <FaHome className="w-10 h-10" />{" "}
         </Link>
         <a
-          href="https://l.facebook.com/l.php?u=https%3A%2F%2Fapi.whatsapp.com%2Fsend%3Fphone%3D51979757404%26text%3DHola%2520gracias%2520por%2520escribir%2520a%2520MARKIKIElectronica%2520en%2520.En%2520breves%2520momentos%2520nos%2520pondremos%2520en%2520contacto%2520contigo%26fbclid%3DIwAR3A4AdPthEihfQSquuMvQdTCTDwI3r4vR7B-zeciFOKYjGJu8tdCwayAyE&h=AT2Add7RQWVVFLg0lEBMU70M_g4s5-seb2Bn5plKFJkVF1tIrafI-tDySOdEN289zSPeITXuFeaHHNKIVpoVaZ6QX7wvHJZ71CKqleCfkkpCHDCBjORh4sqQ6UVtMg"
+          href="https://api.whatsapp.com/send?phone=51979757404&text=Hola%20buenas%2C%20me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20"
           target="_blank"
           title="Contacto via whatsapp"
           rel="noopener noreferrer"
@@ -41,7 +41,7 @@ const Menu = () => {
       >
         <div className="  flex justify-between items-center  ">
           {/* Escudo Logo "inicio" */}
-          <Link href="/">
+          <Link href="/Electronica">
             <div className="cursor-pointer">
               <Image
                 title="Ir a inicio"
