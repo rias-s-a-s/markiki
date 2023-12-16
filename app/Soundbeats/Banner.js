@@ -4,14 +4,11 @@ import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
-const Banner = () => {
+const BannerSoundbeats = () => {
   const NewImage = [
-    "https://scontent.fibe1-1.fna.fbcdn.net/v/t39.30808-6/353010507_650093486981900_6583263392801377975_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=783fdb&_nc_ohc=6is4HbwAJhAAX-V_0sM&_nc_ht=scontent.fibe1-1.fna&oh=00_AfCltYa2QkhDbayDlJtO_CQx5jUuHs9IcDnM4maVzZdQnA&oe=6582ED50",
-    "https://scontent.fibe1-1.fna.fbcdn.net/v/t39.30808-6/319436763_1097113290908959_7414990229522250097_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=9534ce&_nc_ohc=ymX5Ait5qDMAX8ZDBYv&_nc_ht=scontent.fibe1-1.fna&oh=00_AfCC5cFYQY4qrpyIuAMzJeYeXy_nTqXlJHMUvkYLR57lfg&oe=6581EC30",
-    "https://scontent.fibe1-1.fna.fbcdn.net/v/t39.30808-6/275113948_4917012291714124_7053697737796155988_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=9534ce&_nc_ohc=ld0fsZLdxV8AX_WHYN_&_nc_ht=scontent.fibe1-1.fna&oh=00_AfAD77-D403pm5MrDB_yj9SEZCZn50NPEuQ3SGi8ROLUIw&oe=6581CD7B",
-    "https://scontent.fibe1-1.fna.fbcdn.net/v/t39.30808-6/259433642_4578974272184596_4695033514853206308_n.png?_nc_cat=100&ccb=1-7&_nc_sid=783fdb&_nc_ohc=B4YbC7GQcmcAX-fRcw2&_nc_ht=scontent.fibe1-1.fna&oh=00_AfCBBEuv_VGxIWbmqHieGnI-Ii8Ao7R8xHqq-fQF2NBTpw&oe=658206B1",
-    "https://scontent.fibe1-1.fna.fbcdn.net/v/t39.30808-6/242385535_4427965497285475_7758623134422873774_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=783fdb&_nc_ohc=hts6zY8nc-gAX8JtTfo&_nc_ht=scontent.fibe1-1.fna&oh=00_AfDrOx-vPUbg_xHYJb-OVqHforJc4HnIRqDXdlt0XkBjgA&oe=65825D66",
-    "https://scontent.fibe1-1.fna.fbcdn.net/v/t1.6435-9/62008662_2276404135774966_313155458644836352_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=300f58&_nc_ohc=ScZo5aWaChwAX_mCES_&_nc_ht=scontent.fibe1-1.fna&oh=00_AfBgqhXnLxKQ13T6S1nSE_wp-6Jr-Lv0Yp25E7clWbTbgg&oe=65A52F81",
+    "https://scontent.fibe1-1.fna.fbcdn.net/v/t39.30808-6/352808822_271668125374556_6831893910544213373_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=783fdb&_nc_ohc=5BpgF3TWIL4AX8i9Cf7&_nc_ht=scontent.fibe1-1.fna&oh=00_AfBHJALkYJqzLLrC3voJ9NIkV7bWzbnmvCnP0GUuMGmxzQ&oe=6581DD8E",
+    "https://scontent.fibe1-1.fna.fbcdn.net/v/t39.30808-6/320178466_848832946426622_5852411816740519915_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=9534ce&_nc_ohc=rCXRZ7VlgMQAX_04iYT&_nc_ht=scontent.fibe1-1.fna&oh=00_AfDyN50VsygOHYBLmAySgQpP-r5Tt2kMsnhuZyZjYkd4Bg&oe=6583B320",
+    "https://scontent.fibe1-1.fna.fbcdn.net/v/t39.30808-6/315188845_187611973780172_7062402374911845352_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=9534ce&_nc_ohc=mbEpq8vDOa4AX86FBRz&_nc_ht=scontent.fibe1-1.fna&oh=00_AfDKpVBtjgfBdneUp2QjYIrjHNFYXGs2XGKQe1G3Ous7lQ&oe=65825B29",
   ];
   return (
     <div className="relative">
@@ -57,4 +54,4 @@ const Banner = () => {
   );
 };
 
-export default Banner;
+export default BannerSoundbeats;

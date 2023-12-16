@@ -92,7 +92,11 @@ const Nosotros = () => {
                   </div>
                   <h6 className="text-xl font-semibold"> Nuestros Valores</h6>
                   <ul className="list-disc list-inside mt-2 text-left max-w-[140px] mx-auto text-gray-500 ">
-                    <li> Valor 1</li>
+                    <li> Prontitud</li>
+                    <li>Mejora continua</li>
+                    <li>Confianza</li>
+                    <li>Integración</li>
+                    <li>Pasión</li>
                   </ul>
                 </div>
               </div>
