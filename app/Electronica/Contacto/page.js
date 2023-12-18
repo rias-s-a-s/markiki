@@ -160,11 +160,11 @@ const ContactoElectronica = () => {
               <div className="flex flex-col y-4 w-full">
                 <h2 className="text-2xl">LLamanos</h2>
                 <a
-                  href="tel:+51979757404"
+                  href="tel:+51961214387"
                   className="text-gray-100 hover:text-black"
                   target="_blank"
                 >
-                  Tel: (+51) 979 757 404
+                  Tel: (+51) 961 214 387
                 </a>
               </div>
             </div>
