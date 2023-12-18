@@ -101,7 +101,7 @@ const Menu = () => {
               Servicios
             </ItemMenu>
             <ItemMenu
-              ruta="Contratistas/Contacto"
+              ruta="/Contratistas/Contacto"
               setIsOpen={setIsOpen}
               border={pathname == "/Contratistas/Contacto" ? true : false}
             >

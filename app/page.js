@@ -40,11 +40,6 @@ const HomePage = () => {
                   tus manos
                 </p>
               </div>
-              {/* <footer className="mb-10 flex justify-center">
-                <button className="flex items-baseline gap-2 rounded-lg bg-[#FE5401] px-4 py-2.5 text-xl font-bold text-white hover:bg-[#FF7308]">
-                  <span>Start</span>
-                </button>
-              </footer> */}
             </div>
           </div>
           <div className="text-white  ">
@@ -84,7 +79,7 @@ const HomePage = () => {
                 <div>
                   <span>Constratistas Generales</span>
                   <span className="text-xs text-blue-300 block">
-                    Typescript
+                    Construcción{" "}
                   </span>
                 </div>
               </Link>
