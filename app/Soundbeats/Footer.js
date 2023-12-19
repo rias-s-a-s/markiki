@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { BsFacebook, BsInstagram, BsWhatsapp } from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsPhone, BsWhatsapp } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -101,29 +101,15 @@ const Footer = () => {
             <h6 className="font-bold mb-4 text-xl">Nuestras Redes</h6>
             <div className="flex gap-3">
               <a
-                href="https://www.facebook.com/corp.lugarsa"
+                href="https://www.facebook.com/profile.php?id=100075941122828"
                 target="_blank"
                 rel="noopener noreferrer"
                 className=" hover:animate-bounce text-white hover:text-[#eec924]"
               >
                 <BsFacebook className="  w-8 h-8" />
               </a>
-              <a
-                href="https://www.instagram.com/lugarsa.constructora/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className=" hover:animate-bounce text-white hover:text-[#eec924]"
-              >
-                <BsInstagram className="  w-8 h-8" />
-              </a>
-
-              <a
-                href="https://bit.ly/lotes-en-pimentel"
-                target="_blank"
-                rel="noopener noreferrer"
-                className=" hover:animate-bounce text-white hover:text-[#eec924]"
-              >
-                <BsWhatsapp className=" w-8 h-8 " />
+              <a href="tel:+979757404">
+                <BsPhone className=" w-8 h-8 " />
               </a>
             </div>
           </div>

@@ -18,13 +18,13 @@ const Servicios = () => {
       </section>
       <div className="container mt-4 space-y-4 m-auto px-6  text-gray-500 md:px-12 xl:px-0">
         <div className="   space-y-3   ">
-          <h1 className="bg-white rounded-2xl shadow-xl text-purple-900 text-lg lg:text-2xl uppercase text-center py-2 font-bold">
+          <h1 className="bg-white rounded-2xl shadow-xl text-[#377fa7] text-lg lg:text-2xl uppercase text-center py-2 font-bold">
             Equipos de cómputo y redes de telefonía
           </h1>
           <div className="mx-auto grid gap-6 md:w-3/4 lg:w-full lg:grid-cols-3">
             <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8  ">
               <div className=" space-y-4">
-                <h3 className="text-2xl font-semibold text-purple-900">
+                <h3 className="text-2xl font-semibold text-[#377fa7]">
                   SOLUCIONES ELECTRONICAS{" "}
                 </h3>
                 <ul className="list-disc list-inside mt-2 text-left px-2 mx-auto text-gray-600 ">
@@ -38,7 +38,7 @@ const Servicios = () => {
             </div>
             <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8  ">
               <div className=" space-y-4">
-                <h3 className="text-2xl font-semibold text-purple-900">
+                <h3 className="text-2xl font-semibold text-[#377fa7]">
                   Equipos de cómputo, redes de cómputo y telefonía{" "}
                 </h3>
                 <ul className="list-disc list-inside mt-2 text-left px-2 mx-auto text-gray-600 ">
@@ -53,7 +53,7 @@ const Servicios = () => {
 
             <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8  ">
               <div className=" space-y-4">
-                <h3 className="text-2xl font-semibold text-purple-900">
+                <h3 className="text-2xl font-semibold text-[#377fa7]">
                   Climatización y ventilación{" "}
                 </h3>
                 <ul className="list-disc list-inside mt-2 text-left px-2 mx-auto text-gray-600 ">
@@ -69,13 +69,13 @@ const Servicios = () => {
         </div>
 
         <div className="   space-y-3    ">
-          <h1 className="bg-white rounded-2xl shadow-xl text-purple-900 text-lg lg:text-2xl uppercase text-center py-2 font-bold">
+          <h1 className="bg-white rounded-2xl shadow-xl text-[#377fa7] text-lg lg:text-2xl uppercase text-center py-2 font-bold">
             Equipos de cómputo y redes de telefonía{" "}
           </h1>
           <div className="mx-auto grid gap-6 md:w-3/4 lg:w-full lg:grid-cols-3">
             <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8  ">
               <div className=" space-y-4">
-                <h3 className="text-2xl font-semibold text-purple-900">
+                <h3 className="text-2xl font-semibold text-[#377fa7]">
                   Equipos de cómputo{" "}
                 </h3>
                 <ul className="list-disc list-inside mt-2 text-left px-2 mx-auto text-gray-600 ">
@@ -90,7 +90,7 @@ const Servicios = () => {
             </div>
             <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8  ">
               <div className=" space-y-4">
-                <h3 className="text-2xl font-semibold text-purple-900">
+                <h3 className="text-2xl font-semibold text-[#377fa7]">
                   Conexiones inalámbricas y software{" "}
                 </h3>
                 <ul className="list-disc list-inside mt-2 text-left px-2 mx-auto text-gray-600 ">
@@ -102,7 +102,7 @@ const Servicios = () => {
 
             <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8  ">
               <div className=" space-y-4">
-                <h3 className="text-2xl font-semibold text-purple-900">
+                <h3 className="text-2xl font-semibold text-[#377fa7]">
                   Celulares y tablets{" "}
                 </h3>
                 <ul className="list-disc list-inside mt-2 text-left px-2 mx-auto text-gray-600 ">
@@ -115,13 +115,13 @@ const Servicios = () => {
         </div>
 
         <div className="   space-y-3    ">
-          <h1 className="bg-white rounded-2xl shadow-xl text-purple-900 text-lg lg:text-2xl uppercase text-center py-2 font-bold">
+          <h1 className="bg-white rounded-2xl shadow-xl text-[#377fa7] text-lg lg:text-2xl uppercase text-center py-2 font-bold">
             Climatización{" "}
           </h1>
           <div className="mx-auto grid gap-6 md:w-3/4 lg:w-full lg:grid-cols-3">
             <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8  ">
               <div className=" space-y-4">
-                <h3 className="text-2xl font-semibold text-purple-900">
+                <h3 className="text-2xl font-semibold text-[#377fa7]">
                   Termas y rapiduchas.{" "}
                 </h3>
                 <ul className="list-disc list-inside mt-2 text-left px-2 mx-auto text-gray-600 ">
@@ -133,7 +133,7 @@ const Servicios = () => {
             </div>
             <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8  ">
               <div className=" space-y-4">
-                <h3 className="text-2xl font-semibold text-purple-900">
+                <h3 className="text-2xl font-semibold text-[#377fa7]">
                   Equipos de aire acondicionado.{" "}
                 </h3>
                 <ul className="list-disc list-inside mt-2 text-left px-2 mx-auto text-gray-600 ">
@@ -149,7 +149,7 @@ const Servicios = () => {
 
             <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8  ">
               <div className=" space-y-4">
-                <h3 className="text-2xl font-semibold text-purple-900">
+                <h3 className="text-2xl font-semibold text-[#377fa7]">
                   Deshumedecedores{" "}
                 </h3>
                 <ul className="list-disc list-inside mt-2 text-left px-2 mx-auto text-gray-600 ">
@@ -159,7 +159,7 @@ const Servicios = () => {
             </div>
             <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8  ">
               <div className=" space-y-4">
-                <h3 className="text-2xl font-semibold text-purple-900">
+                <h3 className="text-2xl font-semibold text-[#377fa7]">
                   Ventiladores{" "}
                 </h3>
                 <ul className="list-disc list-inside mt-2 text-left px-2 mx-auto text-gray-600 ">
@@ -169,7 +169,7 @@ const Servicios = () => {
             </div>
             <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8  ">
               <div className=" space-y-4">
-                <h3 className="text-2xl font-semibold text-purple-900">
+                <h3 className="text-2xl font-semibold text-[#377fa7]">
                   Estufas{" "}
                 </h3>
                 <ul className="list-disc list-inside mt-2 text-left px-2 mx-auto text-gray-600 ">
@@ -181,13 +181,13 @@ const Servicios = () => {
         </div>
 
         <div className="   space-y-3   ">
-          <h1 className="bg-white rounded-2xl shadow-xl text-purple-900 text-lg lg:text-2xl uppercase text-center py-2 font-bold">
+          <h1 className="bg-white rounded-2xl shadow-xl text-[#377fa7] text-lg lg:text-2xl uppercase text-center py-2 font-bold">
             Instalaciones eléctricas{" "}
           </h1>
           <div className="mx-auto grid gap-6 md:w-3/4 lg:w-full lg:grid-cols-3">
             <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8  ">
               <div className=" space-y-4">
-                <h3 className="text-2xl font-semibold text-purple-900">
+                <h3 className="text-2xl font-semibold text-[#377fa7]">
                   Instalación de canalizaciones, conductos y tuberías{" "}
                 </h3>
                 <ul className="list-disc list-inside mt-2 text-left px-2 mx-auto text-gray-600 ">
@@ -212,7 +212,7 @@ const Servicios = () => {
             </div>
             <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8  ">
               <div className=" space-y-4">
-                <h3 className="text-2xl font-semibold text-purple-900">
+                <h3 className="text-2xl font-semibold text-[#377fa7]">
                   Montaje de tableros eléctricos{" "}
                 </h3>
                 <ul className="list-disc list-inside mt-2 text-left px-2 mx-auto text-gray-600 ">
@@ -224,7 +224,7 @@ const Servicios = () => {
 
             <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8  ">
               <div className=" space-y-4">
-                <h3 className="text-2xl font-semibold text-purple-900">
+                <h3 className="text-2xl font-semibold text-[#377fa7]">
                   Instalación de placas{" "}
                 </h3>
                 <ul className="list-disc list-inside mt-2 text-left px-2 mx-auto text-gray-600 ">
@@ -238,7 +238,7 @@ const Servicios = () => {
 
             <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8  ">
               <div className=" space-y-4">
-                <h3 className="text-2xl font-semibold text-purple-900">
+                <h3 className="text-2xl font-semibold text-[#377fa7]">
                   Sistema de puesta a tierra{" "}
                 </h3>
                 <ul className="list-disc list-inside mt-2 text-left px-2 mx-auto text-gray-600 ">
@@ -249,7 +249,7 @@ const Servicios = () => {
             </div>
             <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8  ">
               <div className=" space-y-4">
-                <h3 className="text-2xl font-semibold text-purple-900">
+                <h3 className="text-2xl font-semibold text-[#377fa7]">
                   Instalación de luminarias{" "}
                 </h3>
                 <ul className="list-disc list-inside mt-2 text-left px-2 mx-auto text-gray-600 ">
@@ -261,7 +261,7 @@ const Servicios = () => {
             </div>
             <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8  ">
               <div className=" space-y-4">
-                <h3 className="text-2xl font-semibold text-purple-900">
+                <h3 className="text-2xl font-semibold text-[#377fa7]">
                   Instalación de intercomunicadores{" "}
                 </h3>
                 <ul className="list-disc list-inside mt-2 text-left px-2 mx-auto text-gray-600 ">
@@ -276,7 +276,7 @@ const Servicios = () => {
             </div>
             <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8  ">
               <div className=" space-y-4">
-                <h3 className="text-2xl font-semibold text-purple-900">
+                <h3 className="text-2xl font-semibold text-[#377fa7]">
                   Sistema fotovoltaico{" "}
                 </h3>
                 <ul className="list-disc list-inside mt-2 text-left px-2 mx-auto text-gray-600 ">
@@ -292,13 +292,13 @@ const Servicios = () => {
           </div>
         </div>
         <div className="   space-y-3    ">
-          <h1 className="bg-white rounded-2xl shadow-xl text-purple-900 text-lg lg:text-2xl uppercase text-center py-2 font-bold">
+          <h1 className="bg-white rounded-2xl shadow-xl text-[#377fa7] text-lg lg:text-2xl uppercase text-center py-2 font-bold">
             Instalaciones Electromecánicas{" "}
           </h1>
           <div className="mx-auto grid gap-6 md:w-3/4 lg:w-full lg:grid-cols-3">
             <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8  ">
               <div className=" space-y-4">
-                <h3 className="text-2xl font-semibold text-purple-900">
+                <h3 className="text-2xl font-semibold text-[#377fa7]">
                   Sistema de bombeo de agua{" "}
                 </h3>
                 <ul className="list-disc list-inside mt-2 text-left px-2 mx-auto text-gray-600 ">
@@ -330,7 +330,7 @@ const Servicios = () => {
             </div>
             <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8  ">
               <div className=" space-y-4">
-                <h3 className="text-2xl font-semibold text-purple-900">
+                <h3 className="text-2xl font-semibold text-[#377fa7]">
                   Sistema de agua contra incendios{" "}
                 </h3>
                 <ul className="list-disc list-inside mt-2 text-left px-2 mx-auto text-gray-600 ">
@@ -342,7 +342,7 @@ const Servicios = () => {
 
             <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8  ">
               <div className=" space-y-4">
-                <h3 className="text-2xl font-semibold text-purple-900">
+                <h3 className="text-2xl font-semibold text-[#377fa7]">
                   Sistema de ventilación industrial, comercial y residencial.{" "}
                 </h3>
                 <ul className="list-disc list-inside mt-2 text-left px-2 mx-auto text-gray-600 ">
@@ -355,16 +355,16 @@ const Servicios = () => {
         </div>
 
         <div className="   space-y-3   ">
-          <h1 className="bg-white rounded-2xl shadow-xl text-purple-900 text-lg lg:text-2xl uppercase text-center py-2 font-bold">
+          <h1 className="bg-white rounded-2xl shadow-xl text-[#377fa7] text-lg lg:text-2xl uppercase text-center py-2 font-bold">
             Sistema de seguridad{" "}
           </h1>
           <div className="mx-auto grid gap-6 md:w-3/4 lg:w-full lg:grid-cols-3">
             <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8  ">
               <div className=" space-y-4">
-                <h3 className="text-2xl font-semibold text-purple-900">
+                <h3 className="text-2xl font-semibold text-[#377fa7]">
                   CCTV y cámaras inteligentes{" "}
                 </h3>
-                <h3 className="text-xl font-semibold text-purple-900">
+                <h3 className="text-xl font-semibold text-[#377fa7]">
                   Suministro e instalación de:{" "}
                 </h3>
                 <ul className="list-disc list-inside mt-2 text-left px-2 mx-auto text-gray-600 ">
@@ -382,10 +382,10 @@ const Servicios = () => {
             </div>
             <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8  ">
               <div className=" space-y-4">
-                <h3 className="text-2xl font-semibold text-purple-900">
+                <h3 className="text-2xl font-semibold text-[#377fa7]">
                   Sistema de alarmas Antirrobos{" "}
                 </h3>
-                <h3 className="text-xl font-semibold text-purple-900">
+                <h3 className="text-xl font-semibold text-[#377fa7]">
                   Suministro e instalación de:{" "}
                 </h3>
                 <ul className="list-disc list-inside mt-2 text-left px-2 mx-auto text-gray-600 ">
@@ -400,10 +400,10 @@ const Servicios = () => {
             </div>
             <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8  ">
               <div className=" space-y-4">
-                <h3 className="text-2xl font-semibold text-purple-900">
+                <h3 className="text-2xl font-semibold text-[#377fa7]">
                   Sistema de detención y alarma contra incendios{" "}
                 </h3>
-                <h3 className="text-xl font-semibold text-purple-900">
+                <h3 className="text-xl font-semibold text-[#377fa7]">
                   Suministro e instalación de:{" "}
                 </h3>
                 <ul className="list-disc list-inside mt-2 text-left px-2 mx-auto text-gray-600 ">
@@ -422,10 +422,10 @@ const Servicios = () => {
             </div>
             <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8  ">
               <div className=" space-y-4">
-                <h3 className="text-2xl font-semibold text-purple-900">
+                <h3 className="text-2xl font-semibold text-[#377fa7]">
                   Luces de emergencia{" "}
                 </h3>
-                <h3 className="text-xl font-semibold text-purple-900">
+                <h3 className="text-xl font-semibold text-[#377fa7]">
                   Suministro e instalación de:{" "}
                 </h3>
                 <ul className="list-disc list-inside mt-2 text-left px-2 mx-auto text-gray-600 ">
@@ -437,10 +437,10 @@ const Servicios = () => {
             </div>
             <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8  ">
               <div className=" space-y-4">
-                <h3 className="text-2xl font-semibold text-purple-900">
+                <h3 className="text-2xl font-semibold text-[#377fa7]">
                   Cerradura digital y electrónica{" "}
                 </h3>
-                <h3 className="text-xl font-semibold text-purple-900">
+                <h3 className="text-xl font-semibold text-[#377fa7]">
                   Suministro e instalación de:{" "}
                 </h3>
                 <ul className="list-disc list-inside mt-2 text-left px-2 mx-auto text-gray-600 ">
@@ -454,13 +454,13 @@ const Servicios = () => {
           </div>
         </div>
         <div className="   space-y-3   ">
-          <h1 className="bg-white rounded-2xl shadow-xl text-purple-900 text-lg lg:text-2xl uppercase text-center py-2 font-bold">
+          <h1 className="bg-white rounded-2xl shadow-xl text-[#377fa7] text-lg lg:text-2xl uppercase text-center py-2 font-bold">
             Domótica{" "}
           </h1>
           <div className="mx-auto grid gap-6 md:w-3/4 lg:w-full lg:grid-cols-3">
             <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8  ">
               <div className=" space-y-4">
-                <h3 className="text-2xl font-semibold text-purple-900">
+                <h3 className="text-2xl font-semibold text-[#377fa7]">
                   Iluminación{" "}
                 </h3>
                 <ul className="list-disc list-inside mt-2 text-left px-2 mx-auto text-gray-600 ">
@@ -474,7 +474,7 @@ const Servicios = () => {
             </div>
             <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8  ">
               <div className=" space-y-4">
-                <h3 className="text-2xl font-semibold text-purple-900">
+                <h3 className="text-2xl font-semibold text-[#377fa7]">
                   Persianas, cortinas y toldos{" "}
                 </h3>
                 <ul className="list-disc list-inside mt-2 text-left px-2 mx-auto text-gray-600 ">
@@ -490,7 +490,7 @@ const Servicios = () => {
 
             <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8  ">
               <div className=" space-y-4">
-                <h3 className="text-2xl font-semibold text-purple-900">
+                <h3 className="text-2xl font-semibold text-[#377fa7]">
                   Climatización{" "}
                 </h3>
                 <ul className="list-disc list-inside mt-2 text-left px-2 mx-auto text-gray-600 ">
@@ -506,13 +506,13 @@ const Servicios = () => {
           </div>
         </div>
         <div className="   space-y-3   ">
-          <h1 className="bg-white rounded-2xl shadow-xl text-purple-900 text-lg lg:text-2xl uppercase text-center py-2 font-bold">
+          <h1 className="bg-white rounded-2xl shadow-xl text-[#377fa7] text-lg lg:text-2xl uppercase text-center py-2 font-bold">
             Máquinas de gimnasio{" "}
           </h1>
           <div className="mx-auto grid gap-6 md:w-3/4 lg:w-full lg:grid-cols-3">
             <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8  ">
               <div className=" space-y-4">
-                <h3 className="text-2xl font-semibold text-purple-900">
+                <h3 className="text-2xl font-semibold text-[#377fa7]">
                   Máquinas elípticas{" "}
                 </h3>
                 <ul className="list-disc list-inside mt-2 text-left px-2 mx-auto text-gray-600 ">
@@ -523,7 +523,7 @@ const Servicios = () => {
             </div>
             <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8  ">
               <div className=" space-y-4">
-                <h3 className="text-2xl font-semibold text-purple-900">
+                <h3 className="text-2xl font-semibold text-[#377fa7]">
                   SPINNING{" "}
                 </h3>
                 <ul className="list-disc list-inside mt-2 text-left px-2 mx-auto text-gray-600 ">
@@ -535,7 +535,7 @@ const Servicios = () => {
 
             <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8  ">
               <div className=" space-y-4">
-                <h3 className="text-2xl font-semibold text-purple-900">
+                <h3 className="text-2xl font-semibold text-[#377fa7]">
                   Máquinas trotadoras{" "}
                 </h3>
                 <ul className="list-disc list-inside mt-2 text-left px-2 mx-auto text-gray-600 ">
@@ -546,7 +546,7 @@ const Servicios = () => {
             </div>
             <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8  ">
               <div className=" space-y-4">
-                <h3 className="text-2xl font-semibold text-purple-900">
+                <h3 className="text-2xl font-semibold text-[#377fa7]">
                   Máquinas abcoaster{" "}
                 </h3>
                 <ul className="list-disc list-inside mt-2 text-left px-2 mx-auto text-gray-600 ">

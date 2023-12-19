@@ -21,7 +21,7 @@ const Soundbeats = () => {
           <h1 className="mb-8 text-4xl font-extrabold leading-tight lg:text-6xl text-dark-grey-900">
             ¿Porque elegirnos ?{" "}
           </h1>
-          <p className="mb-6 text-base font-normal leading-7 lg:w-3/4 text-grey-900 line-clamp-3">
+          <p className="mb-6 text-base font-normal leading-7 lg:w-3/4 text-grey-900 text-justify line-clamp-3">
             Escuchamos sus necesidades y le proponemos planes e ideas para
             desarrollarle un evento emocionante e inolvidable. Somos un equipo
             de profesionales que trabajamos comprometios y enfocados en asegurar

@@ -6,8 +6,7 @@ const Nosotros = () => {
           <div
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
-              backgroundImage:
-                'url("https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80")',
+              backgroundImage: 'url("/BannerConstruccion.webp")',
             }}
           >
             <span
@@ -22,8 +21,16 @@ const Nosotros = () => {
                   <h1 className="text-white font-semibold text-5xl">
                     Nosotros
                   </h1>
-                  <p className="mt-4 text-lg text-blue-200">
-                    {/* {t("Description")} */}
+                  <p className="mt-4 text-lg text-gray-50 text-justify">
+                    Somos una empresa que inicio su actividad en el año 2016,
+                    dedicándonos a la ejecución de proyectos de ingeniería civil
+                    desde su concepción, hasta la terminación, tomando el
+                    liderazgo en innovación en seguridad y procesos
+                    constructivos, en cada uno de nuestros trabajos. Hoy en día
+                    nuestra experiencia se centra en proyectos de
+                    infraestructura de la vivienda, comercial, e industrial;
+                    habiendo superado las expectativas en calidad y plazo de
+                    ejecución.{" "}
                   </p>
                 </div>
               </div>
@@ -60,7 +67,11 @@ const Nosotros = () => {
                     </div>
                     <h6 className="text-xl font-semibold">Misión</h6>
                     <p className="mt-2 mb-4 text-gray-500 text-justify">
-                      {/* {t("MisionDescription")} */}
+                      Nuestra misión es brindar servicios de ingeniería,
+                      construcción, mantenimiento, remodelaciones y
+                      ampliaciones: haciendo uso de la mejora continua y dentro
+                      de los estándares de calidad propuestos por nuestros
+                      clientes.{" "}
                     </p>
                   </div>
                 </div>
@@ -73,7 +84,8 @@ const Nosotros = () => {
                     </div>
                     <h6 className="text-xl font-semibold">Visión</h6>
                     <p className="mt-2 mb-4 text-gray-500 text-justify">
-                      {/* {t("VisionDescription")} */}
+                      Situarnos para el año 2025 dentro de las diez empresas
+                      líderes en el Perú en nuestro sector.{" "}
                     </p>
                   </div>
                 </div>
@@ -86,7 +98,13 @@ const Nosotros = () => {
                     </div>
                     <h6 className="text-xl font-semibold"> Valores</h6>
                     <ul className="list-disc list-inside mt-2 text-left max-w-[140px] mx-auto text-gray-500 ">
-                      <li>Valor1</li>
+                      <li>Calidad</li>
+                      <li>Honestidad</li>
+                      <li>Puntualidad</li>
+                      <li>Pasión</li>
+                      <li>Competitividad</li>
+                      <li>Trabajo en equipo</li>
+                      <li>Responsabilidad social y medio ambiente</li>
                     </ul>
                   </div>
                 </div>

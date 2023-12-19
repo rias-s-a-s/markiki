@@ -72,7 +72,7 @@ const Footer = () => {
                   className=" text-xl hover:text-[#f9d725] transition-colors duration-300"
                   href="mailto:contacto@negociacionestmh.com.pe"
                 >
-                  contacto@negociacionestmh.com.pe{" "}
+                  No Disponible{" "}
                 </a>
               </div>
 
@@ -90,8 +90,7 @@ const Footer = () => {
                   />
                 </svg>
                 <p className="  hover:text-[#f9d725] transition-colors duration-300">
-                  Flor de la Canela Mz D - Lt. 02 Dpto. 201 <br />
-                  Urb. Palmeras del Golf , Distrito de Víctor Larco
+                  No disponible
                 </p>
               </div>
             </div>
@@ -101,14 +100,14 @@ const Footer = () => {
             <h6 className="font-bold mb-4 text-xl">Nuestras Redes</h6>
             <div className="flex gap-3">
               <a
-                href="https://www.facebook.com/corp.lugarsa"
+                href="https://www.facebook.com/profile.php?id=100068415431351&sk=photos"
                 target="_blank"
                 rel="noopener noreferrer"
                 className=" hover:animate-bounce text-white hover:text-[#eec924]"
               >
                 <BsFacebook className="  w-8 h-8" />
               </a>
-              <a
+              {/* <a
                 href="https://www.instagram.com/lugarsa.constructora/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -124,7 +123,7 @@ const Footer = () => {
                 className=" hover:animate-bounce text-white hover:text-[#eec924]"
               >
                 <BsWhatsapp className=" w-8 h-8 " />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

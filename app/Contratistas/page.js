@@ -21,11 +21,14 @@ const Contratistas = () => {
           <h1 className="mb-8 text-4xl font-extrabold leading-tight lg:text-6xl text-dark-grey-900">
             ¿Porque elegirnos ?{" "}
           </h1>
-          <p className="mb-6 text-base font-normal leading-7 lg:w-3/4 text-grey-900 line-clamp-3">
-            Escuchamos sus necesidades y le proponemos planes e ideas para
-            desarrollarle un evento emocionante e inolvidable. Somos un equipo
-            de profesionales que trabajamos comprometios y enfocados en asegurar
-            el éxito de su evento, en base a logros de calidad y tiempo
+          <p className="mb-6 text-base font-normal leading-7 lg:w-3/4 text-grey-900 line-clamp-3 text-justify">
+            Somos una empresa que inicio su actividad en el año 2016,
+            dedicándonos a la ejecución de proyectos de ingeniería civil desde
+            su concepción, hasta la terminación, tomando el liderazgo en
+            innovación en seguridad y procesos constructivos, en cada uno de
+            nuestros trabajos. Hoy en día nuestra experiencia se centra en
+            proyectos de infraestructura de la vivienda, comercial, e
+            industrial; habiendo superado las
           </p>
           <div className="flex flex-col items-center gap-4 lg:flex-row">
             <Link href="/Soundbeats/Nosotros">
@@ -51,7 +54,7 @@ const Contratistas = () => {
         <div className="items-center justify-end hidden col-span-1 md:flex">
           <img
             className="w-4/5 rounded-md"
-            src="https://scontent.fibe1-1.fna.fbcdn.net/v/t39.30808-6/273567142_143344184805973_306090149257144329_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=3635dc&_nc_ohc=tX50NlSfVwcAX-5AJQH&_nc_ht=scontent.fibe1-1.fna&oh=00_AfBGpr8Mx_5lGCGdaF3UC5_y5UT0-nvV1lDoV47ISklAbQ&oe=6582DDE9"
+            src="https://scontent.fibe1-1.fna.fbcdn.net/v/t39.30808-6/410231761_665672605723248_2368184715782350006_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=3635dc&_nc_eui2=AeGWk_CTDLN--7gecN4YRKbjyOX3YOw8b_nI5fdg7Dxv-ajaGq_tMVsS2htB-kbN7KUUBjMGUupAONcGI6_bqwMp&_nc_ohc=DcgLcic-8sQAX-a7N5g&_nc_ht=scontent.fibe1-1.fna&oh=00_AfAy_Gx3FhhlOQc4KL1aErDneKuTvjmaCTFbwG3HEMhPyg&oe=65879A8C"
             alt="header image"
           />
         </div>
@@ -59,21 +62,22 @@ const Contratistas = () => {
         <div
           className=" bg-center lg:col-span-2  bg-cover bg-no-repeat   items-center justify-center flex flex-col "
           style={{
-            backgroundImage: 'url("/BannerSound.webp")',
+            backgroundImage:
+              'url("https://img.freepik.com/foto-gratis/silueta-construccion_1150-8336.jpg?t=st=1703005411~exp=1703006011~hmac=a770c2a171edf335b71b252bf4f2f08cae889c32728fa0b7c230ea2a5cac4eac")',
           }}
         >
           <div className="items-center justify-center w-full p-8 flex flex-col bg-black/50">
             <div className="bg-transparent items-center justify-center md:w-[80%] w-full   p-10 h-auto rounded-lg blur-3 bg-opacity-90 flex flex-col col-span-12">
               <h2
-                className="text-gray-300   text-5xl text-center mt-2 mb-10"
+                className="text-gray-50   text-5xl text-center mt-2 mb-10"
                 id="moka-cqg7a"
                 style={{ fontFamily: '"Archivo Black"' }}
               >
                 Confianza y seguridad
               </h2>
 
-              <Link href={"/Soundbeats/Contacto"}>
-                <button className="hover:text-gray-300 rounded-md p-2 bg-[#39d0ff] text-white hover:bg-blue-600   text-2xl font-bold">
+              <Link href={"/Contratistas/Contacto"}>
+                <button className="hover:text-gray-300 rounded-md p-2 bg-[#0386ba] text-white hover:scale-105   text-2xl font-bold">
                   Contacto
                 </button>
               </Link>

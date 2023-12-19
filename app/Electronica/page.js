@@ -21,7 +21,7 @@ const Electronicia = () => {
           <h1 className="mb-8 text-4xl font-extrabold leading-tight lg:text-6xl text-dark-grey-900">
             Quienes Somos{" "}
           </h1>
-          <p className="mb-6 text-base font-normal leading-7 lg:w-3/4 text-grey-900 line-clamp-4">
+          <p className="mb-6 text-base font-normal leading-7 lg:w-3/4 text-grey-900 text-justify line-clamp-4">
             Somos un grupo empresarial de profesional de amplia experiencia en
             diferentes áreas de negocios, basado en nuestra filosofía, en la
             calidad, aportes de nuevas tecnologías y en la constante
